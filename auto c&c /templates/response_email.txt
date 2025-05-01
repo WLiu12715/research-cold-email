@@ -1,0 +1,8 @@
+Subject: Re: Let's Connect!
+
+Hi {{name}},
+
+Thank you for your response. I'd be happy to schedule a call or provide more information. Let me know what works for you!
+
+Best,
+{{your_name}}

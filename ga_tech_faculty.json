@@ -1,0 +1,1660 @@
+[
+  {
+    "name": "Abrahim Ladha",
+    "email": null,
+    "department": "School of Computing Instruction",
+    "research_interests": null,
+    "personal_website": null,
+    "publications": [
+      "Auditable, available and resilient private computation on the blockchain via MPC",
+      "The GABLE report: garbled autonomous bots leveraging Ethereum",
+      "Exploring mod2 n-queens games",
+      "GABLE contract source code"
+    ],
+    "school": "College of Computing (General)",
+    "profile_url": "https://www.cc.gatech.edu/people/abrahim-ladha"
+  },
+  {
+    "name": "Jacob Abernethy",
+    "email": "prof@gatech.edu",
+    "department": "School of Computer Science",
+    "research_interests": "Machine Learning",
+    "personal_website": null,
+    "publications": [],
+    "school": "College of Computing (General)",
+    "profile_url": "https://www.cc.gatech.edu/people/jacob-abernethy"
+  },
+  {
+    "name": "Gregory Abowd",
+    "email": null,
+    "department": "School of Interactive Computing",
+    "research_interests": "HCI;Ubiquitous Computing",
+    "personal_website": "https://coe.northeastern.edu/people/abowd-gregory/",
+    "publications": [],
+    "school": "College of Computing (General)",
+    "profile_url": "https://www.cc.gatech.edu/people/gregory-abowd-0"
+  },
+  {
+    "name": "Alexander T Adams",
+    "email": "aadams322@gatech.edu",
+    "department": "School of Interactive Computing",
+    "research_interests": "Ubiquitous Computing; Novel Sensing and Feedback Systems; Medical/Health technology; Equity-Driven Design for Health Technologies",
+    "personal_website": "https://www.alexandertadams.com",
+    "publications": [],
+    "school": "College of Computing (General)",
+    "profile_url": "https://www.cc.gatech.edu/people/alexander-t-adams"
+  },
+  {
+    "name": "Keith Adkins",
+    "email": "keith.adkins@gatech.edu",
+    "department": "College of Computing (General)",
+    "research_interests": null,
+    "personal_website": null,
+    "publications": [
+      "Method and apparatus for forward link gain control in a power controlled repeater",
+      "Method and apparatus for forward link gain control in a power controlled repeater",
+      "Scaling anti‐plagiarism efforts to meet the needs of large online computer science classes: Challenges, solutions, and recommendations",
+      "Newly Created Assignments and The First Repository Effect on Inter-Semester Plagiarism"
+    ],
+    "school": "College of Computing (General)",
+    "profile_url": "https://www.cc.gatech.edu/people/keith-adkins"
+  },
+  {
+    "name": "Mustaque Ahamad",
+    "email": "mustaque.ahamad@cc.gatech.edu",
+    "department": "School of Computer Science",
+    "research_interests": "Cybersecurity, Distributed Systems",
+    "personal_website": null,
+    "publications": [
+      "Causal memory: Definitions, implementation, and programming",
+      "Securing context-aware applications using environment roles",
+      "The grid protocol: A high performance scheme for maintaining replicated data",
+      "Incentives in BitTorrent induce free riding",
+      "The Clouds distributed operating system"
+    ],
+    "school": "College of Computing (General)",
+    "profile_url": "https://www.cc.gatech.edu/people/mustaque-ahamad"
+  },
+  {
+    "name": "Srinivas Aluru",
+    "email": "aluru@cc.gatech.edu",
+    "department": "School of Computational Science and Engineering",
+    "research_interests": "High Performance Computing; Data Analytics; Bioinformatics; Systems Biology; Combinatorial Scientific Computing; Applied Algorithms",
+    "personal_website": null,
+    "publications": [
+      "The B73 maize genome: complexity, diversity, and dynamics",
+      "High throughput ANI analysis of 90K prokaryotic genomes reveals clear species boundaries",
+      "Efficient architecture-aware acceleration of BWA-MEM for multicore systems",
+      "A brassinosteroid transcriptional network revealed by genome‐wide identification of BESI target genes in Arabidopsis thaliana",
+      "Space efficient linear time construction of suffix arrays"
+    ],
+    "school": "College of Computing (General)",
+    "profile_url": "https://www.cc.gatech.edu/people/srinivas-aluru"
+  },
+  {
+    "name": "Mostafa Ammar",
+    "email": "ammar@cc.gatech.edu",
+    "department": "School of Computer Science",
+    "research_interests": "Networking",
+    "personal_website": null,
+    "publications": [
+      "A message ferrying approach for data delivery in sparse mobile ad hoc networks",
+      "Algorithms for Assigning Substrate Network Resources to Virtual Network Components.",
+      "A reputation system for peer-to-peer networks",
+      "Controlling the mobility of multiple data transport ferries in a delay-tolerant network",
+      "Message ferrying: Proactive routing in highly-partitioned wireless ad hoc networks"
+    ],
+    "school": "College of Computing (General)",
+    "profile_url": "https://www.cc.gatech.edu/people/mostafa-ammar"
+  },
+  {
+    "name": "Clio Andris",
+    "email": "clio@gatech.edu",
+    "department": "School of Interactive Computing",
+    "research_interests": "Information Visualization; Geovisualization; GIS",
+    "personal_website": null,
+    "publications": [
+      "Redrawing the map of Great Britain from a network of human interactions",
+      "Uncovering cabdrivers’ behavior patterns from their digital traces",
+      "The rise of partisanship and super-cooperators in the US House of Representatives",
+      "Discovering spatial patterns in origin‐destination mobility data",
+      "Integrating Social Networks into GISystems"
+    ],
+    "school": "College of Computing (General)",
+    "profile_url": "https://www.cc.gatech.edu/people/clio-andris"
+  },
+  {
+    "name": "Annie Antón",
+    "email": "aa16@gatech.edu",
+    "department": "School of Interactive Computing",
+    "research_interests": "Privacy, Security, Software Engineering, Public Policy.",
+    "personal_website": null,
+    "publications": [
+      "Goal-based requirements analysis",
+      "Inquiry-based requirements analysis",
+      "Analyzing regulatory rules for privacy and security requirements",
+      "Towards regulatory compliance: Extracting rights and obligations to align requirements with regulations",
+      "The use of goals to surface requirements for evolving systems"
+    ],
+    "school": "College of Computing (General)",
+    "profile_url": "https://www.cc.gatech.edu/people/annie-anton"
+  },
+  {
+    "name": "Alberto Apostolico (1948-2015)",
+    "email": null,
+    "department": "School of Computational Science and Engineering",
+    "research_interests": "Combinatorial Pattern Matching, Pattern Discovery and Data Mining, Bioinformatics and Computational Molecular Biology, Parallel and Distributed Computation and Data Compression",
+    "personal_website": null,
+    "publications": [],
+    "school": "College of Computing (General)",
+    "profile_url": "https://www.cc.gatech.edu/people/alberto-apostolico-1948-2015"
+  },
+  {
+    "name": "Ronald Arkin",
+    "email": "arkin@cc.gatech.edu",
+    "department": "School of Interactive Computing",
+    "research_interests": "Intelligent robotics, robot ethics, bioinspired robotics",
+    "personal_website": "http://mitpress.mit.edu/books/behavior-based-robotics",
+    "publications": [
+      "Behavior-based robotics",
+      "Behavior-based formation control for multirobot teams",
+      "Motor schema—based mobile robot navigation",
+      "Governing lethal behavior in autonomous robots",
+      "Communication in reactive multiagent robotic systems"
+    ],
+    "school": "College of Computing (General)",
+    "profile_url": "https://www.cc.gatech.edu/people/ronald-arkin"
+  },
+  {
+    "name": "Rosa Arriaga",
+    "email": "arriaga@cc.gatech.edu",
+    "department": "School of Interactive Computing",
+    "research_interests": "HCI; Ubicomp; Social Computing; mHealth",
+    "personal_website": "https://sites.google.com/view/riarriaga/home",
+    "publications": [
+      "Using large language models to simulate multiple humans and replicate human subject studies",
+      "An algorithmic theory of learning: Robust concepts and random projection",
+      "Scores on the MacArthur communicative development inventory of children from low-and middle-income families",
+      "Number discrimination in 10‐month‐old infants",
+      "Baby steps: evaluation of a system to support record-keeping for parents of young children"
+    ],
+    "school": "School of Interactive Computing",
+    "profile_url": "https://www.cc.gatech.edu/people/rosa-arriaga"
+  },
+  {
+    "name": "Shaowen Bardzell",
+    "email": null,
+    "department": "School of Interactive Computing",
+    "research_interests": "Feminist HCI, critical and humanistic computing, sustainability and environmental justice, women's health, and design research",
+    "personal_website": "http://shaowenbardzell.com",
+    "publications": [
+      "Feminist HCI: taking stock and outlining an agenda for design",
+      "What is\" critical\" about critical design?",
+      "Towards a feminist HCI methodology: social science, feminism, and HCI",
+      "Critical design and critical theory: the challenge of designing for provocation",
+      "An assessment of body appreciation and its relationship to sexual function in women"
+    ],
+    "school": "School of Interactive Computing",
+    "profile_url": "https://www.cc.gatech.edu/people/shaowen-bardzell"
+  },
+  {
+    "name": "Michael Best",
+    "email": "mikeb@gatech.edu",
+    "department": "School of Interactive Computing",
+    "research_interests": "Computing and Global Development",
+    "personal_website": null,
+    "publications": [],
+    "school": "School of Interactive Computing",
+    "profile_url": "https://www.cc.gatech.edu/people/michael-best"
+  },
+  {
+    "name": "Carrie Bruce",
+    "email": "carrie.bruce@cc.gatech.edu",
+    "department": "School of Interactive Computing",
+    "research_interests": "HCI, UX, Inclusive Design, Accessibility, Informal Learning Environments, Audio Display",
+    "personal_website": null,
+    "publications": [
+      "Rehabilitation and health assessment: applying ICF guidelines",
+      "Aquarium sonification: Soundscapes for accessible dynamic informal learning environments",
+      "Linguistic characteristics of AAC discourse in the workplace",
+      "Measuring the impact of the physical environment",
+      "Environmental & Communication Assessment Toolkit for Dementia Care"
+    ],
+    "school": "School of Interactive Computing",
+    "profile_url": "https://www.cc.gatech.edu/people/carrie-bruce"
+  },
+  {
+    "name": "Amy Bruckman",
+    "email": "asb@cc.gatech.edu",
+    "department": "School of Interactive Computing",
+    "research_interests": "Social Computing",
+    "personal_website": null,
+    "publications": [
+      "Psychological research online: report of Board of Scientific Affairs' Advisory Group on the Conduct of Research on the Internet.",
+      "Becoming Wikipedian: transformation of participation in a collaborative online encyclopedia",
+      "Gender swapping on the Internet",
+      "Studying the amateur artist: A perspective on disguising data collected in human subjects research on the Internet",
+      "Decentralization in Wikipedia governance"
+    ],
+    "school": "School of Interactive Computing",
+    "profile_url": "https://www.cc.gatech.edu/people/amy-bruckman"
+  },
+  {
+    "name": "Sonia Chernova",
+    "email": "chernova@cc.gatech.edu",
+    "department": "School of Interactive Computing",
+    "research_interests": "Robot Learning, Human-Robot Interaction, Explainable AI, AI for Health",
+    "personal_website": null,
+    "publications": [
+      "A survey of robot learning from demonstration",
+      "Recent Advances in Robot Learning from Demonstration",
+      "Robot learning from human teachers",
+      "Interactive policy learning through confidence-based autonomy",
+      "Reinforcement Learning from Demonstration through Shaping."
+    ],
+    "school": "School of Interactive Computing",
+    "profile_url": "https://www.cc.gatech.edu/people/sonia-chernova"
+  },
+  {
+    "name": "Munmun De Choudhury",
+    "email": "mchoudhu@cc.gatech.edu",
+    "department": "School of Interactive Computing",
+    "research_interests": "Social media; Social computing, Computational social science, Mental health, Natural Language",
+    "personal_website": "http://www.munmund.net/",
+    "publications": [
+      "Predicting depression via social media",
+      "Mental health discourse on reddit: Self-disclosure, social support, and anonymity",
+      "Discovering shifts to suicidal ideation from mental health content in social media",
+      "Social media as a measurement tool of depression in populations",
+      "Predicting postpartum changes in emotion and behavior via social media"
+    ],
+    "school": "School of Interactive Computing",
+    "profile_url": "https://www.cc.gatech.edu/people/munmun-de-choudhury"
+  },
+  {
+    "name": "Frank Dellaert",
+    "email": "frank.dellaert@cc.gatech.edu",
+    "department": "School of Interactive Computing",
+    "research_interests": "Robotics, Computer Vision",
+    "personal_website": "http://frank.dellaert.com",
+    "publications": [
+      "Monte Carlo Localization for Mobile Robots",
+      "Robust Monte Carlo Localization for Mobile Robots",
+      "iSAM2: Incremental smoothing and mapping using the Bayes tree",
+      "On-manifold preintegration for real-time visual--inertial odometry",
+      "iSAM: Incremental smoothing and mapping"
+    ],
+    "school": "School of Interactive Computing",
+    "profile_url": "https://www.cc.gatech.edu/people/frank-dellaert"
+  },
+  {
+    "name": "Betsy DiSalvo",
+    "email": "bdisalvo@cc.gatech.edu",
+    "department": "School of Interactive Computing",
+    "research_interests": "Learning Sciences; Human Centered Computing; Culture and Computing; Educational Technology; Data Annotation; Computing Workforce Development; Educational Games",
+    "personal_website": "http://betsydisalvo.com",
+    "publications": [
+      "Participatory design for learning",
+      "Khan academy gamifies computer science",
+      "\" Georgia computes!\" improving the computing education pipeline",
+      "Qualitative data collection technologies: A comparison of instant messaging, email, and phone",
+      "Designing for intersections"
+    ],
+    "school": "School of Interactive Computing",
+    "profile_url": "https://www.cc.gatech.edu/people/betsy-disalvo"
+  },
+  {
+    "name": "Carl DiSalvo",
+    "email": "cdisalvo@gatech.edu",
+    "department": "School of Interactive Computing",
+    "research_interests": "Design, Participatory Design; Design Thinking; Design and Democracy; Civic Computing; Digital Civics",
+    "personal_website": "https://carldisalvo.com/",
+    "publications": [
+      "Adversarial design",
+      "Mapping the landscape of sustainable HCI",
+      "Service robots in the domestic environment: a study of the roomba vacuum in the home",
+      "All robots are not created equal: the design and perception of humanoid robot heads",
+      "Infrastructuring and the formation of publics in participatory design"
+    ],
+    "school": "School of Interactive Computing",
+    "profile_url": "https://www.cc.gatech.edu/people/carl-disalvo"
+  },
+  {
+    "name": "Lynn Dombrowski",
+    "email": null,
+    "department": "School of Interactive Computing",
+    "research_interests": "Human-Centered Computing; Human-Computer Interaction; Social Computing; Design",
+    "personal_website": "http://www.lynndombrowski.com",
+    "publications": [
+      "Social justice-oriented interaction design: Outlining key design strategies and commitments",
+      "\" Will I always be not social?\" Re-Conceptualizing Sociality in the Context of a Minecraft Community for Autism",
+      "Disclosure, stress, and support during gender transition on Facebook",
+      "Digital footprints and changing networks during online identity transitions",
+      "Stewarding a legacy: responsibilities and relationships in the management of post-mortem data"
+    ],
+    "school": "School of Interactive Computing",
+    "profile_url": "https://www.cc.gatech.edu/people/lynn-dombrowski"
+  },
+  {
+    "name": "Keith Edwards",
+    "email": "keith@cc.gatech.edu",
+    "department": "School of Interactive Computing",
+    "research_interests": "Human-Computer Interaction",
+    "personal_website": null,
+    "publications": [
+      "At home with ubiquitous computing: Seven challenges",
+      "Core Jini",
+      "Intelligibility and accountability: human considerations in context-aware systems",
+      "Intersectional HCI: Engaging identity through gender, race, and class",
+      "Making sense of sensing systems: five questions for designers and researchers"
+    ],
+    "school": "School of Interactive Computing",
+    "profile_url": "https://www.cc.gatech.edu/people/keith-edwards"
+  },
+  {
+    "name": "Alex Endert",
+    "email": "endert@gatech.edu",
+    "department": "School of Interactive Computing",
+    "research_interests": "Visual Analytics; Human-centered AI; Information Visualization",
+    "personal_website": null,
+    "publications": [
+      "Space to think: large high-resolution displays for sensemaking",
+      "Characterizing provenance in visualization and data analysis: an organizational framework of provenance types and purposes",
+      "Semantic interaction for visual text analytics",
+      "The state of the art in integrating machine learning into visual analytics",
+      "Augmenting visualizations with interactive data facts to facilitate interpretation and communication"
+    ],
+    "school": "School of Interactive Computing",
+    "profile_url": "https://www.cc.gatech.edu/people/alex-endert"
+  },
+  {
+    "name": "Irfan Essa",
+    "email": "irfan@gatech.edu",
+    "department": "School of Interactive Computing",
+    "research_interests": "Computer Vision; Machine Learning; Artificial Intelligence; Robotics; Computer Graphics; Computational Journalism.",
+    "personal_website": "http://www.irfanessa.com",
+    "publications": [
+      "Graphcut textures: Image and video synthesis using graph cuts",
+      "The aware home: A living laboratory for ubiquitous computing research",
+      "Coding, analysis, interpretation, and recognition of facial expressions",
+      "Efficient hierarchical graph-based video segmentation",
+      "Texture optimization for example-based synthesis"
+    ],
+    "school": "School of Interactive Computing",
+    "profile_url": "https://www.cc.gatech.edu/people/irfan-essa"
+  },
+  {
+    "name": "James Foley",
+    "email": "foley@cc.gatech.edu",
+    "department": "School of Interactive Computing",
+    "research_interests": "Information Visualization; HCI",
+    "personal_website": null,
+    "publications": [
+      "Computer graphics: principles and practice",
+      "Fundamentals of interactive computer graphics",
+      "Introduction to computer graphics",
+      "The human factors of computer graphics interaction techniques",
+      "Evaluating a web lecture intervention in a human–computer interaction course"
+    ],
+    "school": "School of Interactive Computing",
+    "profile_url": "https://www.cc.gatech.edu/people/james-foley"
+  },
+  {
+    "name": "Animesh Garg",
+    "email": "animesh.garg@gatech.edu",
+    "department": "School of Interactive Computing",
+    "research_interests": null,
+    "personal_website": "https://animesh.garg.tech",
+    "publications": [
+      "Progprompt: Generating situated robot task plans using large language models",
+      "Open X-Embodiment: Robotic learning datasets and RT-X models",
+      "Making sense of vision and touch: Self-supervised learning of multimodal representations for contact-rich tasks",
+      "RoboTurk: A crowdsourcing platform for robotic skill learning through imitation",
+      "Making sense of vision and touch: Learning multimodal representations for contact-rich tasks"
+    ],
+    "school": "School of Interactive Computing",
+    "profile_url": "https://www.cc.gatech.edu/people/animesh-garg"
+  },
+  {
+    "name": "William Gelder",
+    "email": null,
+    "department": "School of Interactive Computing",
+    "research_interests": null,
+    "personal_website": null,
+    "publications": [
+      "User-directed Assembly Code Transformations Enabling Efficient Batteryless Arduino Applications",
+      "\" Those don't work for us\": An Assets-Based Approach to Incorporating Emerging Technologies in Viable Hawaiian Teacher Support Tools for Culturally Relevant CS Education",
+      "From Lecture Hall to Homeroom: Co-Designing an AI Elective with Middle School CS Teachers"
+    ],
+    "school": "School of Interactive Computing",
+    "profile_url": "https://www.cc.gatech.edu/people/william-gelder"
+  },
+  {
+    "name": "Ashok Goel",
+    "email": "ashok.goel@cc.gatech.edu",
+    "department": "School of Computational Science and Engineering",
+    "research_interests": "Artificial Intelligence; Cognitive Science; Learning Technology",
+    "personal_website": null,
+    "publications": [
+      "Biologically inspired design: process and products",
+      "Design, analogy, and creativity",
+      "Structure, behavior, and function of complex systems: The structure, behavior, and function modeling language",
+      "Functional representation as design rationale",
+      "Jill Watson: A virtual teaching assistant for online education"
+    ],
+    "school": "School of Interactive Computing",
+    "profile_url": "https://www.cc.gatech.edu/people/ashok-goel"
+  },
+  {
+    "name": "Matthew Gombolay",
+    "email": "matthew.gombolay@cc.gatech.edu",
+    "department": "School of Interactive Computing",
+    "research_interests": "Human-Robot Interaction; Explainable Artificial Intelligence; Multi-agent Reinforcement Learning",
+    "personal_website": null,
+    "publications": [
+      "Decision-making authority, team efficiency and human worker satisfaction in mixed human–robot teams",
+      "Effects of anthropomorphism and accountability on trust in human robot interaction",
+      "Computational design of mixed-initiative human–robot teaming that considers human factors: situational awareness, workload, and workflow preferences",
+      "Optimization Methods for Interpretable Differentiable Decision Trees in Reinforcement Learning",
+      "Multi-Agent Graph-Attention Communication and Teaming."
+    ],
+    "school": "School of Interactive Computing",
+    "profile_url": "https://www.cc.gatech.edu/people/matthew-gombolay"
+  },
+  {
+    "name": "Kartik Goyal",
+    "email": "kartikgo@gatech.edu",
+    "department": "School of Interactive Computing",
+    "research_interests": "Machine learning; natural language processing",
+    "personal_website": "https://kartikgo.github.io",
+    "publications": [
+      "Quantifying privacy risks of masked language models using membership inference attacks",
+      "Panphon: A resource for mapping IPA segments to articulatory feature vectors",
+      "Identifying metaphorical word use with tree kernels",
+      "Mix and match: Learning-free controllable text generation using energy language models",
+      "Exposing the Implicit Energy Networks behind Masked Language Models via Metropolis--Hastings"
+    ],
+    "school": "School of Interactive Computing",
+    "profile_url": "https://www.cc.gatech.edu/people/kartik-goyal"
+  },
+  {
+    "name": "Beki Grinter",
+    "email": "beki@cc.gatech.edu",
+    "department": "School of Interactive Computing",
+    "research_interests": "HCI; Social Computing",
+    "personal_website": "http://www.grinter.org",
+    "publications": [],
+    "school": "School of Interactive Computing",
+    "profile_url": "https://www.cc.gatech.edu/people/beki-grinter"
+  },
+  {
+    "name": "Access denied",
+    "email": null,
+    "department": "School of Interactive Computing",
+    "research_interests": null,
+    "personal_website": null,
+    "publications": [],
+    "school": "School of Interactive Computing",
+    "profile_url": "https://www.cc.gatech.edu/people/sehoon-ha"
+  },
+  {
+    "name": "James Hays",
+    "email": "hays@cc.gatech.edu",
+    "department": "School of Interactive Computing",
+    "research_interests": "Computer Vision, Machine Learning, Robotics",
+    "personal_website": null,
+    "publications": [
+      "Microsoft coco: Common objects in context",
+      "Sun database: Large-scale scene recognition from abbey to zoo",
+      "Fleet D, Pajdla T, Schiele B, Tuytelaars T, et al. Microsoft COCO: common objects in context",
+      "Argoverse: 3d tracking and forecasting with rich maps",
+      "Scene completion using millions of photographs"
+    ],
+    "school": "School of Interactive Computing",
+    "profile_url": "https://www.cc.gatech.edu/people/james-hays"
+  },
+  {
+    "name": "Larry Heck",
+    "email": "larryheck@gatech.edu",
+    "department": "School of Interactive Computing",
+    "research_interests": null,
+    "personal_website": null,
+    "publications": [
+      "Learning deep structured semantic models for web search using clickthrough data",
+      "Using recurrent neural networks for slot filling in spoken language understanding",
+      "Class-incremental learning via deep model consolidation",
+      "Translating natural language utterances to keyword search queries",
+      "Taking a hint: Leveraging explanations to make vision and language models more grounded"
+    ],
+    "school": "School of Interactive Computing",
+    "profile_url": "https://www.cc.gatech.edu/people/larry-heck"
+  },
+  {
+    "name": "Richard Henneman",
+    "email": "rhenneman@gatech.edu",
+    "department": "School of Interactive Computing",
+    "research_interests": "Human-computer interaction, user research",
+    "personal_website": null,
+    "publications": [
+      "Design for usability: Process, skills, and tools",
+      "Measures of human problem solving performance in fault diagnosis tasks",
+      "On measuring the complexity of monitoring and controlling large-scale systems",
+      "Design in the HCI classroom: Setting a research agenda",
+      "Design of a human factors cost-justification tool"
+    ],
+    "school": "School of Interactive Computing",
+    "profile_url": "https://www.cc.gatech.edu/people/richard-henneman"
+  },
+  {
+    "name": "Josiah Hester",
+    "email": "josiah@gatech.edu",
+    "department": "School of Interactive Computing",
+    "research_interests": "Ubiquitous Computing; IoT; Wearables; Sustainable Computing; Mobile Health.",
+    "personal_website": "https://josiahhester.com/lab/#hero",
+    "publications": [
+      "The Future of Sensing is Batteryless, Intermittent, and Awesome",
+      "Timely execution on intermittently powered batteryless sensors",
+      "InK: Reactive Kernel for Tiny Batteryless Sensors",
+      "hls4ml: An open-source codesign workflow to empower scientific low-power machine learning devices",
+      "Flicker: Rapid Prototyping for the Batteryless Internet-of-Things"
+    ],
+    "school": "School of Interactive Computing",
+    "profile_url": "https://www.cc.gatech.edu/people/josiah-hester"
+  },
+  {
+    "name": "Judy Hoffman",
+    "email": "judy@gatech.edu",
+    "department": "School of Interactive Computing",
+    "research_interests": "Computer Vision, Machine Learning, AI",
+    "personal_website": null,
+    "publications": [
+      "Decaf: A deep convolutional activation feature for generic visual recognition",
+      "Adversarial discriminative domain adaptation",
+      "Cycada: Cycle-consistent adversarial domain adaptation",
+      "Deep domain confusion: Maximizing for domain invariance",
+      "Simultaneous deep transfer across domains and tasks"
+    ],
+    "school": "School of Interactive Computing",
+    "profile_url": "https://www.cc.gatech.edu/people/judy-hoffman"
+  },
+  {
+    "name": "Seth Hutchinson",
+    "email": null,
+    "department": "School of Interactive Computing",
+    "research_interests": "Robotics",
+    "personal_website": null,
+    "publications": [],
+    "school": "School of Interactive Computing",
+    "profile_url": "https://www.cc.gatech.edu/people/seth-hutchinson"
+  },
+  {
+    "name": "Melody Jackson",
+    "email": "melody.moore@cc.gatech.edu",
+    "department": "School of Interactive Computing",
+    "research_interests": "Human-Computer Interaction, Wearable Computing",
+    "personal_website": null,
+    "publications": [
+      "Towards an independent brain–computer interface using steady state visual evoked potentials",
+      "FIDO-facilitating interactions for dogs with occupations: wearable dog-activated interfaces",
+      "Applications for brain-computer interfaces",
+      "A general framework for characterizing studies of brain interface technology",
+      "Going to the dogs: towards an interactive touchscreen interface for working dogs"
+    ],
+    "school": "School of Interactive Computing",
+    "profile_url": "https://www.cc.gatech.edu/people/melody-jackson"
+  },
+  {
+    "name": "David Joyner",
+    "email": "david.joyner@gatech.edu",
+    "department": "School of Computing Instruction",
+    "research_interests": "Computer science education, online education, educational technology, AI in education",
+    "personal_website": "http://www.davidjoyner.net",
+    "publications": [
+      "Designing and developing video lessons for online learning: A seven-principle model.",
+      "Towards mutual theory of mind in human-ai interaction: How language reflects what students perceive about a virtual teaching assistant",
+      "Using AI to teach AI: Lessons from an online AI class",
+      "Sentiment analysis of student evaluations of teaching",
+      "Collaboration versus cheating: Reducing code plagiarism in an online MS computer science program"
+    ],
+    "school": "School of Interactive Computing",
+    "profile_url": "https://www.cc.gatech.edu/people/david-joyner"
+  },
+  {
+    "name": "Naveena Karusala",
+    "email": null,
+    "department": "School of Interactive Computing",
+    "research_interests": "Human-Computer Interaction; Human-Centered AI; Health; Social Justice; Future of Work",
+    "personal_website": "http://naveenak.org",
+    "publications": [
+      "Women's safety in public spaces: Examining the efficacy of panic buttons in New Delhi",
+      "Designing for intersections",
+      "Care as a resource in underserved learning environments",
+      "Mental health in the global south: challenges and opportunities in HCI for development",
+      "Privacy, patriarchy, and participation on social media"
+    ],
+    "school": "School of Interactive Computing",
+    "profile_url": "https://www.cc.gatech.edu/people/naveena-karusala"
+  },
+  {
+    "name": "Jennifer Kim",
+    "email": "jennifer.kim@cc.gatech.edu",
+    "department": "School of Interactive Computing",
+    "research_interests": "Human-Computer Interaction (HCI); Computer-Supported Cooperative Work (CSCW); Digital Health; Neurodiversity",
+    "personal_website": "http://jennifergahee.com",
+    "publications": [
+      "Designing a social network to support the independence of young adults with autism",
+      "The power of collective endorsements: credibility factors in medical crowdfunding campaigns",
+      "Personalized academic research paper recommendation system",
+      "Investigating the use of circles in social networks to support independence of individuals with autism",
+      "Skin Conductance as an In Situ Marker for Emotional Arousal in Children with Neurodevelopmental Communication Impairments: Methodological Considerations …"
+    ],
+    "school": "School of Interactive Computing",
+    "profile_url": "https://www.cc.gatech.edu/people/jennifer-kim"
+  },
+  {
+    "name": "Zsolt Kira",
+    "email": "zkira@gatech.edu",
+    "department": "School of Interactive Computing",
+    "research_interests": "Artificial Intelligence; Machine Learning; Robotics; Perception",
+    "personal_website": null,
+    "publications": [
+      "A Closer Look at Few-shot Classification",
+      "On convergence and stability of gans",
+      "Generalized ODIN: Detecting Out-of-distribution Image without Learning from Out-of-distribution Data",
+      "Unbiased Teacher for Semi-Supervised Object Detection",
+      "Habitat 2.0: Training Home Assistants to Rearrange their Habitat"
+    ],
+    "school": "School of Interactive Computing",
+    "profile_url": "https://www.cc.gatech.edu/people/zsolt-kira"
+  },
+  {
+    "name": "Neha Kumar",
+    "email": "neha.kumar@gatech.edu",
+    "department": "School of Interactive Computing",
+    "research_interests": "Human-Centered Computing & Global Development",
+    "personal_website": "http://www.nehakumar.org",
+    "publications": [
+      "Goodbye Text, Hello Emoji: Mobile Communication on WeChat in China",
+      "The ins and outs of HCI for development",
+      "Mobile phones for maternal health in rural India",
+      "Facebook for self-empowerment? A study of Facebook adoption in urban India",
+      "Projecting health: community-led video education for maternal health"
+    ],
+    "school": "School of Interactive Computing",
+    "profile_url": "https://www.cc.gatech.edu/people/neha-kumar"
+  },
+  {
+    "name": "Cindy Kaiying Lin",
+    "email": null,
+    "department": "School of Interactive Computing",
+    "research_interests": "Artificial Intelligence; Human-Computer Interaction; Critical Data Studies",
+    "personal_website": "https://web.archive.org/web/20240708154326/https:/www.gold.ac.uk/goldsmiths-press/publications/technoprecarious-/",
+    "publications": [
+      "A review of earth artificial intelligence",
+      "Making and its promises",
+      "HCI’s making agendas",
+      "Scaling techno-optimistic visions",
+      "Techniques of use: Confronting value systems of productivity, progress, and usefulness in computing and design"
+    ],
+    "school": "School of Interactive Computing",
+    "profile_url": "https://www.cc.gatech.edu/people/cindy-kaiying-lin"
+  },
+  {
+    "name": "Weiching Ma",
+    "email": null,
+    "department": "School of Interactive Computing",
+    "research_interests": null,
+    "personal_website": "https://gbi.georgia.gov/human-trafficking-notice",
+    "publications": [],
+    "school": "School of Interactive Computing",
+    "profile_url": "https://www.cc.gatech.edu/people/weiching-ma"
+  },
+  {
+    "name": "Christopher J. MacLellan",
+    "email": "cmaclellan3@gatech.edu",
+    "department": "School of Interactive Computing",
+    "research_interests": "Artificial Intelligence; Cognitive Systems; Cognitive and Learning Sciences; Human-Computer Interaction; Learning Technology.",
+    "personal_website": "https://chrismaclellan.com/",
+    "publications": [
+      "Improving teamwork competencies in human-machine teams: Perspectives from team science",
+      "The Apprentice Learner Architecture: Closing the loop between learning theory and educational data",
+      "Domain-general tutor authoring with apprentice learner models",
+      "Developmental changes in semantic knowledge organization",
+      "Authoring Tutors with SimStudent: An Evaluation of Efficiency and Model Quality"
+    ],
+    "school": "School of Interactive Computing",
+    "profile_url": "https://www.cc.gatech.edu/people/christopher-j-maclellan"
+  },
+  {
+    "name": "HyunJoo Oh",
+    "email": "hyunjoo.oh@gatech.edu",
+    "department": "School of Interactive Computing",
+    "research_interests": "Human-Computer Interaction; Design Research",
+    "personal_website": "https://www.codecraft.group/hyunjoo-oh",
+    "publications": [
+      "Sensing kirigami",
+      "PEP (3D Printed Electronic Papercrafts): An Integrated Approach for 3D Sculpting Paper-Based Electronic Devices.",
+      "Silver tape: Inkjet-printed circuits peeled-and-transferred on versatile substrates",
+      "Spin (self-powered paper interfaces) bridging triboelectric nanogenerator with folding paper creases",
+      "The digital dream lab: tabletop puzzle blocks for exploring programmatic concepts"
+    ],
+    "school": "School of Interactive Computing",
+    "profile_url": "https://www.cc.gatech.edu/people/hyunjoo-oh"
+  },
+  {
+    "name": "Andrea Grimes Parker",
+    "email": "andrea@cc.gatech.edu",
+    "department": "School of Interactive Computing",
+    "research_interests": "HCI; Social Computing; Health Equity; Social Justice; Civic Computing; Public Health",
+    "personal_website": null,
+    "publications": [],
+    "school": "School of Interactive Computing",
+    "profile_url": "https://www.cc.gatech.edu/people/andrea-grimes-parker"
+  },
+  {
+    "name": "Thomas Ploetz",
+    "email": "thomas.ploetz@gatech.edu",
+    "department": "School of Interactive Computing",
+    "research_interests": "Ubiquitous Computing; Wearable Computing; Machine Learning; Health Analytics; Computational Behavior Assessment",
+    "personal_website": "http://thomasploetz.de",
+    "publications": [
+      "Deep, convolutional, and recurrent models for human activity recognition using wearables.",
+      "Large scale population assessment of physical activity using wrist worn accelerometers: the UK biobank study",
+      "Ensembles of Deep LSTM Learners for Activity Recognition using Wearables",
+      "Feature learning for activity recognition in ubiquitous computing",
+      "Markov models for offline handwriting recognition: a survey"
+    ],
+    "school": "School of Interactive Computing",
+    "profile_url": "https://www.cc.gatech.edu/people/thomas-ploetz"
+  },
+  {
+    "name": "Harish Ravichandar",
+    "email": "harish.ravichandar@gatech.edu",
+    "department": "School of Interactive Computing",
+    "research_interests": "Robot Learning; Human-Centered Robotics; Multi-Agent Systems",
+    "personal_website": "https://harishravichandar.com/",
+    "publications": [
+      "Recent Advances in Robot Learning from Demonstration",
+      "Learning Partially Contracting Dynamical Systems from Demonstrations.",
+      "Human intention inference using expectation-maximization algorithm with online model learning",
+      "STRATA: A Unified Framework for Task Assignments in Large Teams of Heterogeneous Agents",
+      "GRSTAPS: Graphically recursive simultaneous task allocation, planning, and scheduling"
+    ],
+    "school": "School of Interactive Computing",
+    "profile_url": "https://www.cc.gatech.edu/people/harish-ravichandar"
+  },
+  {
+    "name": "Mark Riedl",
+    "email": "riedl@cc.gatech.edu",
+    "department": "School of Interactive Computing",
+    "research_interests": "Introduction to Artificial Intelligence; Computer Game Artificial Intelligence",
+    "personal_website": null,
+    "publications": [
+      "Narrative planning: Balancing plot and character",
+      "Expanding explainability: Towards social transparency in ai systems",
+      "Human‐centered artificial intelligence and machine learning",
+      "Interactive narrative: An intelligent systems approach",
+      "Managing interaction between users and agents in a multi-agent storytelling environment"
+    ],
+    "school": "School of Interactive Computing",
+    "profile_url": "https://www.cc.gatech.edu/people/mark-riedl"
+  },
+  {
+    "name": "Alan Ritter",
+    "email": "alan.ritter@cc.gatech.edu",
+    "department": "School of Interactive Computing",
+    "research_interests": "Natural Language Processing; Machine Learning; Artificial Intelligence",
+    "personal_website": "http://aritter.github.io/",
+    "publications": [
+      "Named Entity Recognition in Tweets: An Experimental Study",
+      "Deep reinforcement learning for dialogue generation",
+      "Never Ending Learning",
+      "SemEval-2013 task 2: Sentiment analysis in twitter",
+      "Adversarial learning for neural dialogue generation"
+    ],
+    "school": "School of Interactive Computing",
+    "profile_url": "https://www.cc.gatech.edu/people/alan-ritter"
+  },
+  {
+    "name": "Jessica Roberts",
+    "email": "jessica.roberts@cc.gatech.edu",
+    "department": "School of Interactive Computing",
+    "research_interests": "Learning Sciences & Technologies",
+    "personal_website": null,
+    "publications": [
+      "Myths, mis-and preconceptions of artificial intelligence: A review of the literature",
+      "Interpreting data from within: supporting humandata interaction in museum exhibits through perspective taking",
+      "Mortality risk from United States coal electricity generation",
+      "Digital exhibit labels in museums: promoting visitor engagement with cultural artifacts",
+      "Examining spontaneous perspective taking and fluid self-to-data relationships in informal open-ended data exploration"
+    ],
+    "school": "School of Interactive Computing",
+    "profile_url": "https://www.cc.gatech.edu/people/jessica-roberts"
+  },
+  {
+    "name": "Agata Rozga",
+    "email": "agata@gatech.edu",
+    "department": "School of Interactive Computing",
+    "research_interests": "Computational behavioral science, applications of machine learning to developmental health",
+    "personal_website": "http://www.agatarozga.org",
+    "publications": [
+      "A prospective study of the emergence of early behavioral signs of autism",
+      "A prospective study of response to name in infants at risk for autism",
+      "Behavioral profiles of affected and unaffected siblings of children with autism: Contribution of measures of mother–infant interaction and nonverbal communication",
+      "Early detection of core deficits in autism",
+      "Decoding children's social behavior"
+    ],
+    "school": "School of Interactive Computing",
+    "profile_url": "https://www.cc.gatech.edu/people/agata-rozga"
+  },
+  {
+    "name": "Humphrey Shi",
+    "email": "shi@gatech.edu",
+    "department": "School of Interactive Computing",
+    "research_interests": "Computer Vision, Machine Learning, AI Systems & Applications",
+    "personal_website": "http://www.humphreyshi.com",
+    "publications": [
+      "CCNet: Criss-Cross Attention for Semantic Segmentation",
+      "Ntire 2017 challenge on single image super-resolution: Methods and results",
+      "HigherHRNet: Scale-Aware Representation Learning for Bottom-Up Human Pose Estimation",
+      "Revisiting Dilated Convolution: A Simple Approach for Weakly- and Semi- Supervised Semantic Segmentation",
+      "Escaping the Big Data Paradigm with Compact Transformers"
+    ],
+    "school": "School of Interactive Computing",
+    "profile_url": "https://www.cc.gatech.edu/people/humphrey-shi"
+  },
+  {
+    "name": "Thad Starner",
+    "email": "thad.starner@cc.gatech.edu",
+    "department": "School of Interactive Computing",
+    "research_interests": "Wearable Computing, Human-Computer Interaction",
+    "personal_website": null,
+    "publications": [
+      "Energy scavenging for mobile and wireless electronics",
+      "View-based and modular eigenspaces for face recognition",
+      "Real-time american sign language recognition using desk and wearable computer based video",
+      "The aware home: A living laboratory for ubiquitous computing research",
+      "Using GPS to learn significant locations and predict movement across multiple users"
+    ],
+    "school": "School of Interactive Computing",
+    "profile_url": "https://www.cc.gatech.edu/people/thad-starner"
+  },
+  {
+    "name": "John Stasko",
+    "email": "john.stasko@cc.gatech.edu",
+    "department": "School of Interactive Computing",
+    "research_interests": "Data and Information Visualization, HCI",
+    "personal_website": null,
+    "publications": [
+      "Visualization of test information to assist fault localization",
+      "Toward a deeper understanding of the role of interaction in information visualization",
+      "Low-level components of analytic activity in information visualization",
+      "A meta-study of algorithm visualization effectiveness",
+      "Tango: A framework and system for algorithm animation"
+    ],
+    "school": "School of Interactive Computing",
+    "profile_url": "https://www.cc.gatech.edu/people/john-stasko"
+  },
+  {
+    "name": "Greg Turk",
+    "email": "gregory.turk@cc.gatech.edu",
+    "department": "School of Interactive Computing",
+    "research_interests": "Computer Graphics, Simulation for Biology",
+    "personal_website": null,
+    "publications": [
+      "Graphcut textures: Image and video synthesis using graph cuts",
+      "Zippered polygon meshes from range images",
+      "Multi-level partition of unity implicits",
+      "Re-tiling polygonal surfaces",
+      "Simplification envelopes"
+    ],
+    "school": "School of Interactive Computing",
+    "profile_url": "https://www.cc.gatech.edu/people/greg-turk"
+  },
+  {
+    "name": "Judith Uchidiuno",
+    "email": null,
+    "department": "School of Interactive Computing",
+    "research_interests": "Human Computer Interaction, Learning Sciences, Education Technology Design, Computer Science Education",
+    "personal_website": "https://judithu.com/",
+    "publications": [
+      "The evolution of engagements and social bonds during child-parent co-design",
+      "Detecting and notifying of various potential hazards",
+      "Going global: Understanding English language learners’ student motivation in English-language MOOCs",
+      "Designing Appropriate Learning Technologies for School vs Home Settings in Tanzanian Rural Villages",
+      "Personalized assistive web for improving mobile web browsing and accessibility for visually impaired users"
+    ],
+    "school": "School of Interactive Computing",
+    "profile_url": "https://www.cc.gatech.edu/people/judith-uchidiuno"
+  },
+  {
+    "name": "Sashank Varma",
+    "email": "varma@gatech.edu",
+    "department": "School of Interactive Computing",
+    "research_interests": "Cognitive Science, Neuroscience, Learning Sciences, Artificial Intelligence, Machine Learning",
+    "personal_website": null,
+    "publications": [
+      "Dyscalculia: from brain to education",
+      "Autism as a neural systems disorder: a theory of frontal-posterior underconnectivity",
+      "Frontal and parietal participation in problem solving in the Tower of London: fMRI and computational modeling of planning and high-level perception",
+      "Scientific and pragmatic challenges for bridging education and neuroscience",
+      "Infusing neuroscience into teacher professional development"
+    ],
+    "school": "School of Interactive Computing",
+    "profile_url": "https://www.cc.gatech.edu/people/sashank-varma"
+  },
+  {
+    "name": "Bruce Walker",
+    "email": "bruce.walker@psych.gatech.edu",
+    "department": "School of Interactive Computing",
+    "research_interests": "Human-Computer Interaction; Sonification and Multimodal User Interfaces; Engineering Psychology; Assistive Technology and Accessibility; Driving",
+    "personal_website": null,
+    "publications": [
+      "Sonification report: Status of the field and research agenda",
+      "Usability assessment of drone technology as safety inspection tools",
+      "Spearcons (speech-based earcons) improve navigation performance in advanced auditory menus",
+      "Theory of sonification",
+      "Swan: System for wearable audio navigation"
+    ],
+    "school": "School of Interactive Computing",
+    "profile_url": "https://www.cc.gatech.edu/people/bruce-walker"
+  },
+  {
+    "name": "Cindy Xiong",
+    "email": "cxiong@gatech.edu",
+    "department": "School of Interactive Computing",
+    "research_interests": "Data Visualization, Visual Perception, Cognition",
+    "personal_website": "https://cyxiong.com",
+    "publications": [
+      "The Curse of Knowledge in Visual Data Communication",
+      "Illusion of causality in visualized data",
+      "How to evaluate data visualizations across different levels of understanding",
+      "Declutter and focus: Empirically evaluating design guidelines for effective data communication",
+      "A design space of vision science methods for visualization research"
+    ],
+    "school": "School of Interactive Computing",
+    "profile_url": "https://www.cc.gatech.edu/people/cindy-xiong"
+  },
+  {
+    "name": "Danfei Xu",
+    "email": "danfei@gatech.edu",
+    "department": "School of Interactive Computing",
+    "research_interests": "Robotics, Artificial Intelligence, Machine Learning, Computer Vision",
+    "personal_website": null,
+    "publications": [
+      "3d-r2n2: A unified approach for single and multi-view 3d object reconstruction",
+      "Scene graph generation by iterative message passing",
+      "Densefusion: 6d object pose estimation by iterative dense fusion",
+      "Pointfusion: Deep sensor fusion for 3d bounding box estimation",
+      "Progprompt: Generating situated robot task plans using large language models"
+    ],
+    "school": "School of Interactive Computing",
+    "profile_url": "https://www.cc.gatech.edu/people/danfei-xu"
+  },
+  {
+    "name": "Wei Xu",
+    "email": "wei.xu@cc.gatech.edu",
+    "department": "School of Interactive Computing",
+    "research_interests": "Natural Language Processing; Artificial Intelligence; Machine Learning; Social Media",
+    "personal_website": "https://cocoxu.github.io/",
+    "publications": [
+      "Optimizing statistical machine translation for text simplification",
+      "Problems in current text simplification research: New data can help",
+      "Shared tasks of the 2015 workshop on noisy user-generated text: Twitter lexical normalization and named entity recognition",
+      "Paraphrasing for style",
+      "A Continuously Growing Dataset of Sentential Paraphrases"
+    ],
+    "school": "School of Interactive Computing",
+    "profile_url": "https://www.cc.gatech.edu/people/wei-xu"
+  },
+  {
+    "name": "Yalong Yang",
+    "email": null,
+    "department": "School of Interactive Computing",
+    "research_interests": null,
+    "personal_website": null,
+    "publications": [
+      "Metaverse: Perspectives from graphics, interactions and visualization",
+      "Grand Challenges in Immersive Analytics",
+      "Origin-destination flow maps in immersive environments",
+      "Many-to-many geographically-embedded flow visualisation: An evaluation",
+      "Maps and globes in virtual reality"
+    ],
+    "school": "School of Interactive Computing",
+    "profile_url": "https://www.cc.gatech.edu/people/yalong-yang"
+  },
+  {
+    "name": "Bo Zhu",
+    "email": "bo.zhu@gatech.edu",
+    "department": "School of Interactive Computing",
+    "research_interests": "Computer graphics; Computational physics; Scientific Machine Learning",
+    "personal_website": null,
+    "publications": [
+      "Two-scale topology optimization with microstructures",
+      "Computational discovery of extremal microstructure families",
+      "Narrow-band topology optimization on a sparsely populated grid",
+      "Interactive design space exploration and optimization for CAD models",
+      "Learning to fly: computational controller design for hybrid uavs with reinforcement learning"
+    ],
+    "school": "School of Interactive Computing",
+    "profile_url": "https://www.cc.gatech.edu/people/bo-zhu"
+  },
+  {
+    "name": "Joy Arulraj",
+    "email": "jarulraj3@gatech.edu",
+    "department": "School of Computer Science",
+    "research_interests": "Database systems, machine learning",
+    "personal_website": null,
+    "publications": [
+      "Self-Driving Database Management Systems.",
+      "Let's talk about storage & recovery methods for non-volatile memory database systems",
+      "Bztree: A high-performance latch-free range index for non-volatile memory",
+      "An empirical evaluation of in-memory multi-version concurrency control",
+      "Bridging the archipelago between row-stores and column-stores for hybrid workloads"
+    ],
+    "school": "School of Computer Science",
+    "profile_url": "https://www.cc.gatech.edu/people/joy-arulraj"
+  },
+  {
+    "name": "Suguman Bansal",
+    "email": "suguman@gatech.edu",
+    "department": "School of Computer Science",
+    "research_interests": "Formal Methods; Artificial Intelligence; Programming Languages",
+    "personal_website": "https://suguman.github.io/",
+    "publications": [
+      "Compositional reinforcement learning from logical specifications",
+      "Hybrid compositional reasoning for reactive synthesis from finite-horizon specifications",
+      "A framework for transforming specifications in reinforcement learning",
+      "Comparator automata in quantitative verification",
+      "Compositional safety LTL synthesis"
+    ],
+    "school": "School of Computer Science",
+    "profile_url": "https://www.cc.gatech.edu/people/suguman-bansal"
+  },
+  {
+    "name": "Zachary Bischof",
+    "email": null,
+    "department": "School of Computer Science",
+    "research_interests": null,
+    "personal_website": null,
+    "publications": [
+      "Dasu: Pushing Experiments to the {Internet’s} Edge",
+      "Sidnet-swans: A simulator and integrated development platform for sensor networks applications",
+      "Crowdsourcing ISP characterization to the network edge",
+      "Need, want, can afford: Broadband markets and the behavior of users",
+      "Untangling the world-wide mesh of undersea cables"
+    ],
+    "school": "School of Computer Science",
+    "profile_url": "https://www.cc.gatech.edu/people/zachary-bischof"
+  },
+  {
+    "name": "Alexandra Boldyreva",
+    "email": "sasha.boldyreva@cc.gatech.edu",
+    "department": "School of Computer Science",
+    "research_interests": "Cryptography, Information Security",
+    "personal_website": null,
+    "publications": [
+      "Threshold signatures, multisignatures and blind signatures based on the gap-Diffie-Hellman-group signature scheme",
+      "Order-preserving symmetric encryption",
+      "Deterministic and efficiently searchable encryption",
+      "Identity-based encryption with efficient revocation",
+      "Order-preserving encryption revisited: Improved security analysis and alternative solutions"
+    ],
+    "school": "School of Computer Science",
+    "profile_url": "https://www.cc.gatech.edu/people/alexandra-boldyreva"
+  },
+  {
+    "name": "Zongchen Chen",
+    "email": "chenzongchen@gatech.edu",
+    "department": "School of Computer Science",
+    "research_interests": "Randomized algorithms; discrete probability; learning theory",
+    "personal_website": null,
+    "publications": [
+      "Optimal Mixing of Glauber Dynamics: Entropy Factorization via High-Dimensional Expansion",
+      "Rapid mixing of Glauber dynamics up to uniqueness via contraction",
+      "On Mixing of Markov Chains: Coupling, Spectral Independence, and Entropy Factorization",
+      "Optimal Convergence Rate of Hamiltonian Monte Carlo for Strongly Logconcave Distributions",
+      "Rapid mixing for colorings via spectral independence"
+    ],
+    "school": "School of Computer Science",
+    "profile_url": "https://www.cc.gatech.edu/people/zongchen-chen"
+  },
+  {
+    "name": "Thomas Conte",
+    "email": "conte@cc.gatech.edu",
+    "department": "School of Computer Science",
+    "research_interests": "Computer architecture",
+    "personal_website": null,
+    "publications": [
+      "Robust multipath routing",
+      "Optimization of instruction fetch mechanisms for high issue rates",
+      "Adaptive mode control: A static-power-efficient cache design",
+      "Reducing state loss for effective trace sampling of superscalar processors",
+      "Unified assign and schedule: A new approach to scheduling for clustered register file microarchitectures"
+    ],
+    "school": "School of Computer Science",
+    "profile_url": "https://www.cc.gatech.edu/people/thomas-conte"
+  },
+  {
+    "name": "Alexandros Daglis",
+    "email": "alexandros.daglis@cc.gatech.edu",
+    "department": "School of Computer Science",
+    "research_interests": "Architecture",
+    "personal_website": null,
+    "publications": [
+      "Scale-Out NUMA",
+      "The Mondrian Data Engine",
+      "Exploiting Errors for Efficiency: A Survey from Circuits to Applications",
+      "RPCValet: NI-Driven Tail-Aware Balancing of µs-Scale RPCs",
+      "The NeBuLa RPC-Optimized Architecture"
+    ],
+    "school": "School of Computer Science",
+    "profile_url": "https://www.cc.gatech.edu/people/alexandros-daglis"
+  },
+  {
+    "name": "Alberto Dainotti",
+    "email": "dainotti@gatech.edu",
+    "department": "School of Computer Science",
+    "research_interests": "Networking; Internet Security; Internet Data Science",
+    "personal_website": null,
+    "publications": [
+      "Issues and future directions in traffic classification",
+      "A tool for the generation of realistic network workload for emerging networking scenarios",
+      "Analysis of country-wide internet outages caused by censorship",
+      "Multi-protocol and multi-platform traffic generation and measurement",
+      "Analysis of a\"/0\" Stealth Scan from a Botnet"
+    ],
+    "school": "School of Computer Science",
+    "profile_url": "https://www.cc.gatech.edu/people/alberto-dainotti"
+  },
+  {
+    "name": "Ashutosh Dhekne",
+    "email": "dhekne@gatech.edu",
+    "department": "School of Computer Science",
+    "research_interests": "Wireless networking, mobile computing, IoT",
+    "personal_website": null,
+    "publications": [
+      "Esense: Communication through energy sensing",
+      "LiquID: A Wireless Liquid IDentifier",
+      "Bringing IoT to Sports Analytics.",
+      "Tracking drone orientation with multiple GPS receivers",
+      "{TrackIO}: Tracking First Responders {Inside-Out}"
+    ],
+    "school": "School of Computer Science",
+    "profile_url": "https://www.cc.gatech.edu/people/ashutosh-dhekne"
+  },
+  {
+    "name": "Mark Borodovsky",
+    "email": "borodovsky@gatech.edu",
+    "department": "School of Computational Science and Engineering",
+    "research_interests": "Machine Learning; Algorithms; Bioinformatics",
+    "personal_website": null,
+    "publications": [
+      "NCBI prokaryotic genome annotation pipeline",
+      "The complete genome sequence of the gastric pathogen Helicobacter pylori",
+      "Complete genome sequence of the methanogenic archaeon, Methanococcus jannaschii",
+      "cag, a pathogenicity island of Helicobacter  pylori, encodes type I-specific and disease-associated  virulence factors",
+      "GeneMarkS: a self-training method for prediction of gene starts in microbial genomes. Implications for finding sequence motifs in regulatory regions"
+    ],
+    "school": "School of Computational Science and Engineering",
+    "profile_url": "https://www.cc.gatech.edu/people/mark-borodovsky"
+  },
+  {
+    "name": "Spencer Bryngelson",
+    "email": "shb@gatech.edu",
+    "department": "School of Computational Science and Engineering",
+    "research_interests": "Computational physics, numerical methods, fluid dynamics, high performance computing",
+    "personal_website": "https://comp-physics.group",
+    "publications": [
+      "An assessment of multicomponent flow models and interface capturing schemes for spherical bubble dynamics",
+      "Near-surface dynamics of a gas bubble collapsing above a crevice",
+      "MFC: An open-source high-order multi-component, multi-phase, and multi-scale compressible flow solver",
+      "Competitive Physics Informed Networks",
+      "A quantitative comparison of phase-averaged models for bubbly, cavitating flows"
+    ],
+    "school": "School of Computational Science and Engineering",
+    "profile_url": "https://www.cc.gatech.edu/people/spencer-bryngelson"
+  },
+  {
+    "name": "Ümit V. Çatalyürek",
+    "email": "umit@gatech.edu",
+    "department": "School of Computational Science and Engineering",
+    "research_interests": "High-Performance Computing; Combinatorial Scientific Computing; Biomedical Informatics",
+    "personal_website": null,
+    "publications": [
+      "Hypergraph-partitioning-based decomposition for parallel sparse-matrix vector multiplication",
+      "A scalable distributed parallel breadth-first search algorithm on BlueGene/L",
+      "Parallel hypergraph partitioning for scientific computing",
+      "A comparative analysis of biclustering algorithms for gene expression data",
+      "Benchmarking short sequence mapping tools"
+    ],
+    "school": "School of Computational Science and Engineering",
+    "profile_url": "https://www.cc.gatech.edu/people/umit-v-catalyurek"
+  },
+  {
+    "name": "Duen Horng (Polo) Chau",
+    "email": "polo@gatech.edu",
+    "department": "School of Computational Science and Engineering",
+    "research_interests": "AI Security, Explainable AI, Visual Analytics, Adversarial Machine Learning, Graph Visualization, Data Mining",
+    "personal_website": null,
+    "publications": [
+      "Visual analytics in deep learning: An interrogative survey for the next frontiers",
+      "Netprobe: a fast and scalable system for fraud detection in online auction networks",
+      "Shapeshifter: Robust physical adversarial attack on faster r-cnn object detector",
+      "ActiVis: Visual Exploration of Industry-Scale Deep Neural Network Models",
+      "Keeping the bad guys out: Protecting and vaccinating deep learning with jpeg compression"
+    ],
+    "school": "School of Computational Science and Engineering",
+    "profile_url": "https://www.cc.gatech.edu/people/duen-horng-polo-chau"
+  },
+  {
+    "name": "Peng Chen",
+    "email": "pchen402@gatech.edu",
+    "department": "School of Computational Science and Engineering",
+    "research_interests": "Scientific machine learning; uncertainty quantification; Bayesian inference; stochastic optimization; parallel computing",
+    "personal_website": null,
+    "publications": [
+      "Simulation‐based uncertainty quantification of human arterial network hemodynamics",
+      "A weighted reduced basis method for elliptic partial differential equations with random input data",
+      "Reduced basis methods for uncertainty quantification",
+      "Comparison between reduced basis and stochastic collocation methods for elliptic problems",
+      "Weighted reduced basis method for stochastic optimal control problems with elliptic PDE constraints"
+    ],
+    "school": "School of Computational Science and Engineering",
+    "profile_url": "https://www.cc.gatech.edu/people/peng-chen"
+  },
+  {
+    "name": "Elizabeth Cherry",
+    "email": "elizabeth.cherry@gatech.edu",
+    "department": "School of Computational Science and Engineering",
+    "research_interests": "modeling and simulation, scientific computing, high-performance computing, numerical methods, and computational physiology",
+    "personal_website": null,
+    "publications": [
+      "Models of cardiac tissue electrophysiology: progress, challenges and open questions",
+      "Multiple mechanisms of spiral wave breakup in a model of cardiac electrical activity",
+      "Minimal model for human ventricular action potentials in tissue",
+      "Low-energy control of electrical turbulence in the heart",
+      "Verification of cardiac tissue electrophysiology simulators using an N-version benchmark"
+    ],
+    "school": "School of Computational Science and Engineering",
+    "profile_url": "https://www.cc.gatech.edu/people/elizabeth-cherry"
+  },
+  {
+    "name": "Edmond Chow",
+    "email": "echow@cc.gatech.edu",
+    "department": "School of Computational Science and Engineering",
+    "research_interests": "Scientific computing; high-performance computing; numerical methods",
+    "personal_website": null,
+    "publications": [
+      "Scalable algorithms for molecular dynamics simulations on commodity clusters",
+      "Millisecond-scale molecular dynamics simulations on Anton",
+      "A scalable distributed parallel breadth-first search algorithm on BlueGene/L",
+      "Approximate inverse preconditioners via sparse-sparse iterations",
+      "Experimental study of ILU preconditioners for indefinite matrices"
+    ],
+    "school": "School of Computational Science and Engineering",
+    "profile_url": "https://www.cc.gatech.edu/people/edmond-chow"
+  },
+  {
+    "name": "Bo Dai",
+    "email": "bodai@cc.gatech.edu",
+    "department": "School of Computational Science and Engineering",
+    "research_interests": "Reinforcement Learning; Machine Learning; Data-Driven Decision Making; Artificial General Intelligence",
+    "personal_website": "https://bo-dai.github.io/",
+    "publications": [
+      "Discriminative embeddings of latent variable models for structured data",
+      "Syntax-directed variational autoencoder for structured data",
+      "DualDICE: Behavior-agnostic estimation of discounted stationary distribution corrections",
+      "SBEED: Convergent reinforcement learning with nonlinear function approximation",
+      "Learning steady-states of iterative algorithms over graphs"
+    ],
+    "school": "School of Computational Science and Engineering",
+    "profile_url": "https://www.cc.gatech.edu/people/bo-dai"
+  },
+  {
+    "name": "Richard Fujimoto",
+    "email": "fujimoto@cc.gatech.edu",
+    "department": "School of Computational Science and Engineering",
+    "research_interests": "Parallel discrete event simulation, distributed simulation, applications in sustainability, transportation",
+    "personal_website": null,
+    "publications": [
+      "Parallel and Distributed Simulation Systems",
+      "Parallel discrete event simulation",
+      "MDDV: a mobility-centric data dissemination algorithm for vehicular networks",
+      "The department of defense high level architecture",
+      "Multicomputer networks: Message-based parallel processing"
+    ],
+    "school": "School of Computational Science and Engineering",
+    "profile_url": "https://www.cc.gatech.edu/people/richard-fujimoto"
+  },
+  {
+    "name": "Victor Fung",
+    "email": "victorfung@gatech.edu",
+    "department": "School of Computational Science and Engineering",
+    "research_interests": "Artificial intelligence and machine learning; high performance computing; computational chemistry; chemical engineering; materials science",
+    "personal_website": "https://www.fung-group.org/",
+    "publications": [
+      "Golden single-atomic-site platinum electrocatalysts",
+      "Insights into interfaces, stability, electronic properties, and catalytic activities of atomically precise metal nanoclusters from first principles",
+      "Single rhodium atoms anchored in micropores for efficient transformation of methane under mild conditions",
+      "Understanding seed-mediated growth of gold nanoclusters at molecular level",
+      "Benchmarking graph neural networks for materials chemistry"
+    ],
+    "school": "School of Computational Science and Engineering",
+    "profile_url": "https://www.cc.gatech.edu/people/victor-fung"
+  },
+  {
+    "name": "Felix Herrmann",
+    "email": "felix.herrmann@gatech.edu",
+    "department": "School of Computational Science and Engineering",
+    "research_interests": "Computational Imaging, Inverse Problems, PDE-constrained Optimization, Compressive Sensing, Machine Learning, Uncertainty Quantification",
+    "personal_website": null,
+    "publications": [
+      "Non-parametric seismic data recovery with curvelet frames",
+      "Simply denoise: Wavefield reconstruction via jittered undersampling",
+      "Mitigating local minima in full-waveform inversion by expanding the search space",
+      "Seismic denoising with nonuniformly sampled curvelets",
+      "Curvelet-based seismic data processing: A multiscale and nonlinear approach"
+    ],
+    "school": "School of Computational Science and Engineering",
+    "profile_url": "https://www.cc.gatech.edu/people/felix-herrmann"
+  },
+  {
+    "name": "Nabil Imam",
+    "email": "nimam6@gatech.edu",
+    "department": "School of Computational Science and Engineering",
+    "research_interests": "Computational Neuroscience; Parallel Computing; Probabilistic Methods",
+    "personal_website": "https://sites.google.com/cornell.edu/nabil-imam/",
+    "publications": [
+      "A million spiking-neuron integrated circuit with a scalable communication network and interface",
+      "Loihi: A neuromorphic manycore processor with on-chip learning",
+      "Truenorth: Design and tool flow of a 65 mw 1 million neuron programmable neurosynaptic chip",
+      "A digital neurosynaptic core using embedded crossbar memory with 45pJ per spike in 45nm",
+      "A million spiking-neuron integrated circuit with a scalable communication network and interface"
+    ],
+    "school": "School of Computational Science and Engineering",
+    "profile_url": "https://www.cc.gatech.edu/people/nabil-imam"
+  },
+  {
+    "name": "Surya Kalidindi",
+    "email": "surya.kalidindi@me.gatech.edu",
+    "department": "School of Computational Science and Engineering",
+    "research_interests": "Materials-Manufacturing Data Sciences and Informatics",
+    "personal_website": null,
+    "publications": [
+      "Crystallographic texture evolution in bulk deformation processing of FCC metals",
+      "Deformation twinning in AZ31: Influence on strain hardening and texture evolution",
+      "Incorporation of deformation twinning in crystal plasticity models",
+      "Influence of grain size and stacking-fault energy on deformation twinning in fcc metals",
+      "Strain hardening of titanium: role of deformation twinning"
+    ],
+    "school": "School of Computational Science and Engineering",
+    "profile_url": "https://www.cc.gatech.edu/people/surya-kalidindi"
+  },
+  {
+    "name": "Srijan Kumar",
+    "email": null,
+    "department": "School of Computational Science and Engineering",
+    "research_interests": "Data science, applied machine learning, network analysis",
+    "personal_website": null,
+    "publications": [
+      "Predicting Dynamic Embedding Trajectory in Temporal Interaction Networks",
+      "Stubborn mining: Generalizing selfish mining and combining with an eclipse attack",
+      "Edge Weight Prediction in Weighted Signed Networks",
+      "False information on web and social media: A survey",
+      "Rev2: Fraudulent user prediction in rating platforms"
+    ],
+    "school": "School of Computational Science and Engineering",
+    "profile_url": "https://www.cc.gatech.edu/people/srijan-kumar"
+  },
+  {
+    "name": "Yunan Luo",
+    "email": "yunan@gatech.edu",
+    "department": "School of Computational Science and Engineering",
+    "research_interests": "Computational biology, machine learning",
+    "personal_website": null,
+    "publications": [
+      "A network integration approach for drug-target interaction prediction and computational drug repositioning from heterogeneous information",
+      "Enzyme function prediction using contrastive learning",
+      "An integrative drug repositioning framework discovered a potential therapeutic agent targeting COVID-19",
+      "ECNet is an evolutionary context-integrated deep learning framework for protein engineering",
+      "Few-shot learning creates predictive models of drug response that translate from high-throughput screens to individual patients"
+    ],
+    "school": "School of Computational Science and Engineering",
+    "profile_url": "https://www.cc.gatech.edu/people/yunan-luo"
+  },
+  {
+    "name": "Lu Mi",
+    "email": "lmi7@gatech.edu",
+    "department": "School of Computational Science and Engineering",
+    "research_interests": "Computational neuroscience; Machine learning",
+    "personal_website": "https://lumimim.github.io/",
+    "publications": [
+      "Hdmapgen: A hierarchical graph generative model of high definition maps",
+      "Training-free uncertainty estimation for dense regression: sensitivity as a surrogate",
+      "Cross-classification clustering: An efficient multi-object tracking technique for 3-d instance segmentation in connectomics",
+      "A fluidic circuit based, high-efficiency and large-scale single cell trap",
+      "A probe towards understanding GAN and VAE models"
+    ],
+    "school": "School of Computational Science and Engineering",
+    "profile_url": "https://www.cc.gatech.edu/people/lu-mi"
+  },
+  {
+    "name": "Haesun Park",
+    "email": "hpark@cc.gatech.edu",
+    "department": "School of Computational Science and Engineering",
+    "research_interests": "Data analysis, Visual analytics, Numerical computing, Text mining, Social media mining, Parallel Computing, Bioinformatics",
+    "personal_website": null,
+    "publications": [
+      "Orthogonal nonnegative matrix t-factorizations for clustering",
+      "Sparse nonnegative matrix factorization for clustering",
+      "Sparse non-negative matrix factorizations via alternating non-negativity-constrained least squares for microarray data analysis",
+      "Nonnegative matrix factorization based on alternating nonnegativity constrained least squares and active set method",
+      "Missing value estimation for DNA microarray gene expression data: local least squares imputation"
+    ],
+    "school": "School of Computational Science and Engineering",
+    "profile_url": "https://www.cc.gatech.edu/people/haesun-park"
+  },
+  {
+    "name": "Raphaël Pestourie",
+    "email": "rpestourie3@gatech.edu",
+    "department": "School of Computational Science and Engineering",
+    "research_interests": "Scientific Machine Learning; Inverse Design in Electromagnetism",
+    "personal_website": "https://www.raphaelpestourie.com/",
+    "publications": [
+      "Physics-informed neural networks with hard constraints for inverse design",
+      "Inverse design of large-area metasurfaces",
+      "Inverse design enables large-scale high-performance meta-optics reshaping virtual reality",
+      "Topology optimization of freeform large-area metasurfaces",
+      "Empowering metasurfaces with inverse design: principles and applications"
+    ],
+    "school": "School of Computational Science and Engineering",
+    "profile_url": "https://www.cc.gatech.edu/people/raphael-pestourie"
+  },
+  {
+    "name": "B. Aditya Prakash",
+    "email": "badityap@cc.gatech.edu",
+    "department": "School of Computational Science and Engineering",
+    "research_interests": "Data Science, Machine Learning, AI, Networks and Sequences with applications to Epidemiology, Health, Security, Urban Computing and the Web",
+    "personal_website": null,
+    "publications": [
+      "Rise and fall patterns of information diffusion: model and implications",
+      "Gelling, and melting, large graphs by edge manipulation",
+      "Spotting culprits in epidemics: How many and which ones?",
+      "Threshold conditions for arbitrary cascade models on arbitrary networks",
+      "Evaluation of individual and ensemble probabilistic forecasts of COVID-19 mortality in the United States"
+    ],
+    "school": "School of Computational Science and Engineering",
+    "profile_url": "https://www.cc.gatech.edu/people/b-aditya-prakash"
+  },
+  {
+    "name": "Elizabeth Qian",
+    "email": "eqian@gatech.edu",
+    "department": "School of Computational Science and Engineering",
+    "research_interests": "Model Reduction; Scientific Machine Learning; Uncertainty Quantification; Multi-fidelity Methods",
+    "personal_website": "https://www.elizabethqian.com/",
+    "publications": [
+      "Lift & learn: Physics-informed machine learning for large-scale nonlinear dynamical systems",
+      "Autonomous battery swapping system for small-scale helicopters",
+      "Multifidelity Monte Carlo estimation of variance and sensitivity indices",
+      "The cost-accuracy trade-off in operator learning with neural networks",
+      "A certified trust region reduced basis approach to PDE-constrained optimization"
+    ],
+    "school": "School of Computational Science and Engineering",
+    "profile_url": "https://www.cc.gatech.edu/people/elizabeth-qian"
+  },
+  {
+    "name": "Mahdi Roozbahani",
+    "email": "mahdir@gatech.edu",
+    "department": "School of Computational Science and Engineering",
+    "research_interests": null,
+    "personal_website": "https://mahdi-roozbahani.github.io",
+    "publications": [
+      "Pore Size Distribution in Granular Material Microstructure",
+      "The effect of different random number distributions on the porosity of spherical particles",
+      "Effect of rectangular container's sides on porosity for equal-sized sphere packing",
+      "Mechanical trapping of fine particles in a medium of mono‐sized randomly packed spheres",
+      "Size Effects on the Void Ratio of Loosely Packed Binary Particle Mixtures"
+    ],
+    "school": "School of Computational Science and Engineering",
+    "profile_url": "https://www.cc.gatech.edu/people/mahdi-roozbahani"
+  },
+  {
+    "name": "Florian Schäfer",
+    "email": "florian.schaefer@cc.gatech.edu",
+    "department": "School of Computational Science and Engineering",
+    "research_interests": "numerical analysis, computational statistics, multi-agent optimization, game-theoretic approaches in deep learning",
+    "personal_website": "https://f-t-s.github.io/",
+    "publications": [
+      "Competitive gradient descent",
+      "Sparse Cholesky Factorization by Kullback--Leibler Minimization",
+      "Compression, inversion, and approximate PCA of dense kernel matrices at near-linear computational complexity",
+      "Competitive physics informed networks",
+      "Zero initialization: Initializing neural networks with only zeros and ones"
+    ],
+    "school": "School of Computational Science and Engineering",
+    "profile_url": "https://www.cc.gatech.edu/people/florian-schafer"
+  },
+  {
+    "name": "C. David Sherrill",
+    "email": "sherrill@gatech.edu",
+    "department": "School of Computational Science and Engineering",
+    "research_interests": "Algorithms and software for computational chemistry, creation of benchmark databases, systematic evaluation of new approximations in quantum chemistry, intermolecular interactions in drug design and molecular crystals",
+    "personal_website": null,
+    "publications": [],
+    "school": "School of Computational Science and Engineering",
+    "profile_url": "https://www.cc.gatech.edu/people/c-david-sherrill"
+  },
+  {
+    "name": "Qi Tang",
+    "email": "qtang@gatech.edu",
+    "department": "School of Computational Science and Engineering",
+    "research_interests": "Computational plasma physics; high-performance computing; scientific machine learning",
+    "personal_website": "https://tangqi.github.io/",
+    "publications": [
+      "Stabilized neural ordinary differential equations for long-time forecasting of dynamical systems",
+      "Finite difference weighted essentially non-oscillatory schemes with constrained transport for ideal magnetohydrodynamics",
+      "High order parametrized maximum-principle-preserving and positivity-preserving WENO schemes on unstructured meshes",
+      "Positivity-preserving finite difference Weighted ENO schemes with constrained transport for ideal magnetohydrodynamic equations",
+      "Sparse Grid Discontinuous Galerkin Methods for High-Dimensional Elliptic Equations"
+    ],
+    "school": "School of Computational Science and Engineering",
+    "profile_url": "https://www.cc.gatech.edu/people/qi-tang"
+  },
+  {
+    "name": "Richard Vuduc",
+    "email": "richie@cc.gatech.edu",
+    "department": "School of Computational Science and Engineering",
+    "research_interests": "High-performance computing -- algorithms, software, and performance engineering for numerical simulation and data analysis",
+    "personal_website": "http://www.darpa.mil/program/computer-science-study-group",
+    "publications": [
+      "Optimization of sparse matrix-vector multiplication on emerging multicore platforms",
+      "OSKI: A library of automatically tuned sparse matrix kernels",
+      "Model-driven autotuning of sparse matrix-vector multiply on GPUs",
+      "Sparsity: Optimization framework for sparse matrix kernels",
+      "Automatic performance tuning of sparse matrix kernels"
+    ],
+    "school": "School of Computational Science and Engineering",
+    "profile_url": "https://www.cc.gatech.edu/people/richard-vuduc"
+  },
+  {
+    "name": "Kai Wang",
+    "email": null,
+    "department": "School of Computational Science and Engineering",
+    "research_interests": "AI for Social Impact; Data-Driven Decision Making; Multi-Agent Systems; Machine Learning; and Optimization",
+    "personal_website": "https://guaguakai.com/",
+    "publications": [
+      "Forget-me-not: Learning to forget in text-to-image diffusion models",
+      "Versatile diffusion: Text, images and variations all in one diffusion model",
+      "Point-to-box network for accurate object detection via single point supervision",
+      "Specialist diffusion: Plug-and-play sample-efficient fine-tuning of text-to-image diffusion models to learn any unseen style",
+      "Zero-shot generative model adaptation via image-specific prompt learning"
+    ],
+    "school": "School of Computational Science and Engineering",
+    "profile_url": "https://www.cc.gatech.edu/people/kai-wang"
+  },
+  {
+    "name": "Anqi Wu",
+    "email": "anqiwu@gatech.edu",
+    "department": "School of Computational Science and Engineering",
+    "research_interests": "machine learning, computational neuroscience",
+    "personal_website": "https://sites.google.com/site/anqiwuresearch",
+    "publications": [
+      "Deterministic variational inference for robust bayesian neural networks",
+      "Gaussian process based nonlinear latent structure discovery in multivariate spike train data",
+      "Dynamic time warping constraint learning for large margin nearest neighbor classification",
+      "Neural Latents Benchmark'21: Evaluating latent variable models of neural population activity",
+      "Global model for failure prediction for artificial lift systems"
+    ],
+    "school": "School of Computational Science and Engineering",
+    "profile_url": "https://www.cc.gatech.edu/people/anqi-wu"
+  },
+  {
+    "name": "Helen Xu",
+    "email": null,
+    "department": "School of Computational Science and Engineering",
+    "research_interests": "Parallel Computing; Cache-Efficient Algorithms; Performance Engineering; High-Performance Computing",
+    "personal_website": "https://itshelenxu.github.io/",
+    "publications": [
+      "Packed compressed sparse row: A dynamic graph representation",
+      "Terrace: A hierarchical graph container for skewed dynamic graphs",
+      "Write-optimized skip lists",
+      "A parallel packed memory array to store dynamic graphs",
+      "Dynamic programming with spiking neural computing"
+    ],
+    "school": "School of Computational Science and Engineering",
+    "profile_url": "https://www.cc.gatech.edu/people/helen-xu"
+  },
+  {
+    "name": "Chao Zhang",
+    "email": "chaozhang@gatech.edu",
+    "department": "School of Computational Science and Engineering",
+    "research_interests": "Knowledge representation and extraction; Text mining; Machine learning; Natural language processing",
+    "personal_website": "http://chaozhang.org/",
+    "publications": [
+      "T-GCN: A temporal graph convolutional network for traffic prediction",
+      "Deepmove: Predicting human mobility with attentional recurrent networks",
+      "Bridging collaborative filtering and semi-supervised learning: a neural approach for poi recommendation",
+      "Bond: Bert-assisted open-domain named entity recognition with distant supervision",
+      "Salmonn: Towards generic hearing abilities for large language models"
+    ],
+    "school": "School of Computational Science and Engineering",
+    "profile_url": "https://www.cc.gatech.edu/people/chao-zhang"
+  },
+  {
+    "name": "Xiuwei Zhang",
+    "email": null,
+    "department": "School of Computational Science and Engineering",
+    "research_interests": "Computational biology, bioinformatics, single cell data analysis and method development",
+    "personal_website": null,
+    "publications": [
+      "Accounting for technical noise in single-cell RNA-seq experiments",
+      "Single-cell RNA sequencing reveals T helper cells synthesizing steroids de novo to contribute to immune homeostasis",
+      "Simulating multiple faceted variability in single cell RNA sequencing",
+      "CD4+ and CD8+ cytotoxic T lymphocytes may induce mesenchymal cell apoptosis in IgG4-related disease",
+      "Evolution of oligomeric state through allosteric pathways that mimic ligand binding"
+    ],
+    "school": "School of Computational Science and Engineering",
+    "profile_url": "https://www.cc.gatech.edu/people/xiuwei-zhang"
+  }
+]

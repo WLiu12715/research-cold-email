@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research Paper Search & Cold Emailer</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Find Professors & Generate Cold Email</h1>
+        <div style="margin-bottom:16px">
+            <label style="font-weight:bold;font-size:1.1em;">Your Research Interest: <input type="text" id="user-interest" placeholder="e.g. AI for healthcare" required style="width:300px;"></label>
+        </div>
+        <form id="professor-search-form" onsubmit="return false;">
+            <input type="text" id="prof-search" name="prof-search" placeholder="e.g. MIT AI healthcare" style="width: 70%; margin-bottom: 1rem;" />
+            <button id="find-btn" type="button" class="btn btn-primary" style="margin-left: 1rem;">Find Professors</button>
+        </form>
+        <div id="professors-section" style="display:none;">
+            <h2>Professors</h2>
+            <div id="professors-list"></div>
+        </div>
+        <div id="papers-section" style="display:none;">
+            <h2>Papers by <span id="prof-name"></span></h2>
+            <div id="papers-list"></div>
+        </div>
+        <div id="email-section" style="display:none;">
+            <h2>Generate Cold Email</h2>
+            <form id="email-form">
+                <label>Recipient Name: <input type="text" id="recipient" required></label><br>
+                <label>Your Name: <input type="text" id="yourname" required></label><br>
+                <label>Your Affiliation: <input type="text" id="affiliation" required></label><br>
+                
+                <label>Why it's Intriguing:<br>
+                    <textarea id="intrigue_reason" rows="3" required></textarea>
+                </label><br>
+                <label>Main Goal: <input type="text" id="goal" required></label><br>
+                <label>Common Ground: <input type="text" id="common_ground"></label><br>
+                <button type="submit">Generate Email</button>
+            </form>
+            <div id="email-output"></div>
+        </div>
+    </div>
+    <script>
+        document.getElementById('find-btn').addEventListener('click', async function (e) {
+            e.preventDefault();
+            const query = document.getElementById('prof-search').value;
+            const professorsSection = document.getElementById('professors-section');
+            professorsSection.style.display = 'block';
+            document.getElementById('professors-list').innerHTML = '<em>Searching...</em>';
+            document.getElementById('papers-section').style.display = 'none';
+            document.getElementById('email-section').style.display = 'none';
+            try {
+                const resp = await fetch('/find_professors', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ query })
+                });
+                const data = await resp.json();
+                if (data.error) {
+                    document.getElementById('professors-list').innerHTML = `<p style="color:red">${data.error}</p>`;
+                    return;
+                }
+                if (!data.professors || data.professors.length === 0) {
+                    document.getElementById('professors-list').innerHTML = '<em>No professors found.</em>';
+                    return;
+                }
+                let html = '';
+                data.professors.forEach(function(prof) {
+                    html += `<div class="prof-card" style="border:1px solid #ddd; border-radius:8px; margin:1em 0; padding:1em; background:#fafbff;">
+                        <h3 style="margin:0 0 0.3em 0;">${prof.name}</h3>
+                        <div><b>Affiliation:</b> ${prof.affiliations && prof.affiliations[0] ? prof.affiliations[0] : 'N/A'}</div>
+                        <div><b>Research Interests:</b> ${(prof.research_interests && prof.research_interests.length > 0) ? prof.research_interests.join(', ') : 'N/A'}</div>
+                        <div><b>Email:</b> ${prof.email ? `<a href='mailto:${prof.email}'>${prof.email}</a>` : 'N/A'}</div>
+                        <div><b>Top Papers:</b><ul style="margin:0.3em 0 0 1.2em;">`;
+                    if (prof.matching_papers && prof.matching_papers.length > 0) {
+                        prof.matching_papers.forEach(function(paper) {
+                            html += `<li><a href="${paper.url}" target="_blank">${paper.title}</a>${paper.year ? ' (' + paper.year + ')' : ''}${paper.venue ? ' - ' + paper.venue : ''}</li>`;
+                        });
+                    } else {
+                        html += '<li>No papers found.</li>';
+                    }
+                    html += `</ul></div></div>`;
+                });
+                document.getElementById('professors-list').innerHTML = html;
+            } catch (e) {
+                document.getElementById('professors-list').innerHTML = `<p style="color:red">Unexpected error. Please try again later.</p>`;
+                professorsSection.style.display = 'block'; // force visible
+            }
+        });
+    // Select a paper and show email section
+    window.selectPaperFromProf = function(name, profIdx, pidx) {
+        const prof = window.professors[profIdx];
+        const paper = window.profPapers[pidx];
+        document.getElementById('research_interest').value = paper.title;
+        document.getElementById('intrigue_reason').value = paper.abstract || '';
+        document.getElementById('recipient').value = prof.name;
+        if (prof.email) document.getElementById('recipient').value += ' <' + prof.email + '>';
+        document.getElementById('email-section').style.display = 'block';
+        window.scrollTo(0, document.getElementById('email-section').offsetTop);
+    }
+    // Contact button (show email section with prof info)
+    window.contactProf = function(name, email) {
+        document.getElementById('recipient').value = name + (email ? ' <' + email + '>' : '');
+        document.getElementById('email-section').style.display = 'block';
+        window.scrollTo(0, document.getElementById('email-section').offsetTop);
+    }
+    </script>
+</body>
+</html>

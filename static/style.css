@@ -1,0 +1,10 @@
+body { font-family: Arial, sans-serif; background: #f7f7fa; margin: 0; }
+.container { max-width: 700px; margin: 40px auto; background: #fff; padding: 2em 2.5em; border-radius: 10px; box-shadow: 0 4px 24px rgba(0,0,0,0.08); }
+h1 { color: #2d3a4b; }
+input, textarea { width: 100%; padding: 0.5em; margin: 0.2em 0 1em 0; border: 1px solid #ccd; border-radius: 4px; }
+button { background: #3867d6; color: #fff; border: none; padding: 0.7em 1.3em; border-radius: 4px; cursor: pointer; font-size: 1em; }
+button:hover { background: #274b8e; }
+.paper-result { margin-bottom: 1em; }
+#results { margin-top: 2em; }
+#email-section { margin-top: 2em; }
+#email-output { margin-top: 1em; background: #f7f7ff; border: 1px solid #ccd; border-radius: 4px; padding: 1em; }

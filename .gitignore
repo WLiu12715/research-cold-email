@@ -1,0 +1,6 @@
+config.yaml
+.env
+db/state.sqlite
+__pycache__/
+*.pyc
+.env.*
