@@ -1,7 +1,17 @@
+import json
 from flask import Flask, render_template, request, jsonify
 import requests
+import yaml
 
 app = Flask(__name__)
+
+# --- Load config and Perplexity API key ---
+def load_config():
+    with open('auto c&c /config.yaml', 'r') as f:
+        return yaml.safe_load(f)
+
+CONFIG = load_config()
+PERPLEXITY_API_KEY = CONFIG.get('perplexity', {}).get('api_key', None)
 
 # Semantic Scholar search function
 SEMANTIC_SCHOLAR_URL = "https://api.semanticscholar.org/graph/v1/paper/search"
@@ -11,6 +21,212 @@ API_KEY = None  # Optionally load from config.yaml if you get one
 import xml.etree.ElementTree as ET
 
 from flask import current_app
+
+# --- Perplexity API integration ---
+
+@app.route('/ask_perplexity', methods=['POST'])
+def ask_perplexity():
+    if not PERPLEXITY_API_KEY:
+        return jsonify({'error': 'Perplexity API key not configured.'}), 500
+    data = request.get_json()
+    query = data.get('query', '').strip()
+    if not query:
+        return jsonify({'error': 'Query is required.'}), 400
+    headers = {
+        'Authorization': f'Bearer {PERPLEXITY_API_KEY}',
+        'Content-Type': 'application/json'
+    }
+    filtering_instructions = (
+        "Only include faculty who are research-qualified (Assistant, Associate, or Full Professors) "
+        "and who have research publications. For each faculty member, list all available research publications. "
+        "Exclude lecturers, adjuncts, and administrative staff."
+    )
+    full_query = f"{filtering_instructions}\n\nUser query: {query}"
+    payload = {
+        'model': 'sonar-pro',
+        'messages': [
+            {"role": "system", "content": "You are an academic research assistant."},
+            {"role": "user", "content": full_query}
+        ],
+        'stream': False
+    }
+    resp = requests.post('https://api.perplexity.ai/chat/completions', headers=headers, data=json.dumps(payload))
+    if resp.status_code == 200:
+        result = resp.json()
+        answer = result.get('choices', [{}])[0].get('message', {}).get('content', '')
+        citations = result.get('choices', [{}])[0].get('message', {}).get('citations', [])
+        return jsonify({'answer': answer, 'citations': citations, 'query': query})
+    else:
+        return jsonify({'error': f'Perplexity API error: {resp.status_code}', 'details': resp.text}), 500
+
+import re
+
+def load_faculty_by_department(dept_keywords):
+    # Load all faculty from the JSON file and filter by department keywords
+    try:
+        with open('ga_tech_faculty.json', 'r', encoding='utf-8') as f:
+            all_faculty = json.load(f)
+        filtered = []
+        for prof in all_faculty:
+            dept = (prof.get('department') or '').lower()
+            if any(kw.lower() in dept for kw in dept_keywords):
+                filtered.append(prof)
+        return filtered
+    except Exception as e:
+        return []
+
+@app.route('/ask_and_enrich_perplexity', methods=['POST'])
+def ask_and_enrich_perplexity():
+    if not PERPLEXITY_API_KEY:
+        return jsonify({'error': 'Perplexity API key not configured.'}), 500
+    data = request.get_json()
+    query = data.get('query', '').strip()
+    school_name = data.get('school_name', 'Georgia Tech')
+    if not query:
+        return jsonify({'error': 'Query is required.'}), 400
+    headers = {
+        'Authorization': f'Bearer {PERPLEXITY_API_KEY}',
+        'Content-Type': 'application/json'
+    }
+    filtering_instructions = (
+        "Only include faculty who are research-qualified (Assistant, Associate, or Full Professors) "
+        "and who have research publications. For each faculty member, list all available research publications. "
+        "Exclude lecturers, adjuncts, and administrative staff."
+    )
+    full_query = f"{filtering_instructions}\n\nUser query: {query}"
+    payload = {
+        'model': 'sonar-pro',
+        'messages': [
+            {"role": "system", "content": "You are an academic research assistant."},
+            {"role": "user", "content": full_query}
+        ],
+        'stream': False
+    }
+    resp = requests.post('https://api.perplexity.ai/chat/completions', headers=headers, data=json.dumps(payload))
+    if resp.status_code == 200:
+        result = resp.json()
+        answer = result.get('choices', [{}])[0].get('message', {}).get('content', '')
+        # Extract professor names: only lines that look like real people (Dr. or Professor or two capitalized words)
+        lines = answer.split('\n')
+        person_names = []
+        for line in lines:
+            line = line.strip()
+            # Markdown bold name: **Dr. Name** or **Professor Name** or **Firstname Lastname**
+            if line.startswith('**') and line.endswith('**'):
+                core = line.strip('*').strip()
+                if re.match(r'^(Dr\.|Professor)\s+[A-Z][a-zA-Z\-]+(\s+[A-Z][a-zA-Z\-]+)+$', core) or re.match(r'^[A-Z][a-zA-Z\-]+\s+[A-Z][a-zA-Z\-]+$', core):
+                    person_names.append(re.sub(r'^(Dr\.|Professor)\s+', '', core))
+            # Or lines starting with Dr./Professor
+            elif re.match(r'^(Dr\.|Professor)\s+[A-Z][a-zA-Z\-]+(\s+[A-Z][a-zA-Z\-]+)+', line):
+                person_names.append(re.sub(r'^(Dr\.|Professor)\s+', '', line))
+        # Remove duplicates and empty
+        clean_names = list({n.strip() for n in person_names if n.strip()})
+        results = []
+        if clean_names:
+            for name in clean_names:
+                try:
+                    prof_info = extract_professor_info(None, name, '', school_name)
+                    results.append(prof_info)
+                except Exception as e:
+                    results.append({'name': name, 'error': str(e)})
+        else:
+            # Fallback: find department keyword from query or answer
+            dept_keywords = []
+            dept_map = {
+                'bme': 'biomedical',
+                'biomedical': 'biomedical',
+                'ece': 'electrical',
+                'electrical': 'electrical',
+                'mechanical': 'mechanical',
+                'aerospace': 'aerospace',
+                'civil': 'civil',
+                'chemical': 'chemical',
+                'industrial': 'industrial',
+                'materials': 'materials',
+                'nuclear': 'nuclear',
+            }
+            ql = query.lower() + ' ' + answer.lower()
+            for k, v in dept_map.items():
+                if k in ql:
+                    dept_keywords.append(v)
+            if not dept_keywords:
+                dept_keywords = ['biomedical']  # default fallback
+            results = load_faculty_by_department(dept_keywords)
+        # Shorten the Perplexity answer (first paragraph or up to 400 chars)
+        short_answer = ''
+        paras = [p.strip() for p in answer.split('\n') if p.strip()]
+        if paras:
+            short_answer = paras[0][:400]
+        else:
+            short_answer = answer[:400]
+        # --- Improved fuzzy matching for enrichment ---
+        import difflib
+        import re
+        def normalize_name(name):
+            # Remove titles, punctuation, extra whitespace, and lowercase
+            if not name:
+                return ''
+            name = re.sub(r"^(Dr\.|Professor)\s+", "", name)
+            name = re.sub(r"[^a-zA-Z\s]", "", name)  # Remove punctuation
+            name = re.sub(r"\s+", " ", name)  # Collapse whitespace
+            return ''.join(name.lower().split())
+        # Load all faculty data for matching
+        with open('ga_tech_faculty.json', 'r') as f:
+            all_faculty = json.load(f)
+        # Filter out non-faculty entries
+        NON_FACULTY_NAMES = set([
+            'home', 'directory', 'visitor parking information', 'main directory', 'day', 'welcome',
+            'undergraduate handbook', 'professional education', 'financial aid', 'faculty', 'staff', 'office', 'about', 'contact', 'events', 'graduate handbook', 'student', 'advising', 'administration', 'resources', 'faq', 'news', 'alumni', 'forms', 'information', 'handbook', 'overview'
+        ])
+        faculty_by_norm = {}
+        for fac in all_faculty:
+            norm = normalize_name(fac['name'])
+            if not norm or norm in NON_FACULTY_NAMES:
+                continue
+            faculty_by_norm[norm] = fac
+        # For each result, try fuzzy match
+        enriched_results = []
+        for prof in results:
+            name = prof.get('name', '')
+            norm_name = normalize_name(name)
+            # Try exact match
+            fac = faculty_by_norm.get(norm_name)
+            # Try fuzzy match if not found
+            if not fac:
+                close_matches = difflib.get_close_matches(norm_name, faculty_by_norm.keys(), n=1, cutoff=0.85)
+                if close_matches:
+                    fac = faculty_by_norm[close_matches[0]]
+            if fac:
+                # Only use profile_url if it looks like a real faculty profile (not a directory or info page)
+                profile_url = fac.get('profile_url', '')
+                if (not profile_url or
+                    any(x in profile_url.lower() for x in [
+                        '/directory', '/main', '/home', '/visitor', '/about', '/faq', '/resources', '/forms', '/news', '/events', '/advising', '/student', '/staff', '/alumni', '/office', '/overview', '/information', '/handbook', '/contact', '/graduate', '/undergraduate', '/professional-education', '/financial-aid', '/calendar', '/specialevents', '/study-abroad', '/lifetimelearning', '/tickets', '/tech-lingo', '/undergraduate', '/directory1', 'signup.e2ma.net', 'parkmobile', 'gtalumni', 'ramblinwreck', 'oie.gatech.edu', 'pe.gatech.edu', 'gnpec.georgia.gov', 'calendar.gatech.edu', 'specialevents.gatech.edu', 'lifetimelearning.gatech.edu', 'forms', 'faq', 'resources', 'news', 'events', 'advising', 'student', 'staff', 'alumni', 'office', 'overview', 'information', 'handbook', 'contact', 'graduate', 'undergraduate', 'professional-education', 'financial-aid', 'calendar', 'specialevents', 'study-abroad', 'lifetimelearning', 'tickets', 'tech-lingo', 'directory1'])):
+                    profile_url = 'N/A'
+                prof.update({
+                    'email': fac.get('email', 'N/A'),
+                    'department': fac.get('department', 'N/A'),
+                    'school': fac.get('school', 'N/A'),
+                    'research_interests': fac.get('research_interests', 'N/A'),
+                    'lab_affiliation': fac.get('lab_affiliation', 'N/A'),
+                    'personal_website': fac.get('personal_website', 'N/A'),
+                    'profile_url': profile_url if profile_url else 'N/A',
+                    'publications': fac.get('publications', [])
+                })
+            enriched_results.append(prof)
+
+        # Try to match Perplexity answer sections to professors (if possible)
+        prof_summaries = {}
+        for line in paras:
+            for prof in enriched_results:
+                if prof.get('name') and prof['name'] in line:
+                    prof_summaries[prof['name']] = line[:350]
+        for prof in enriched_results:
+            prof['perplexity_excerpt'] = prof_summaries.get(prof.get('name'), '')
+        return jsonify({'short_answer': short_answer, 'professors': enriched_results, 'query': query})
+    else:
+        return jsonify({'error': f'Perplexity API error: {resp.status_code}', 'details': resp.text}), 500
+
 
 # --- New endpoints for professor search ---
 @app.route('/find_professors', methods=['POST'])
@@ -636,6 +852,24 @@ def search():
     else:  # both (arxiv + openalex)
         results = search_arxiv(query, max_results=20) + search_openalex(query, per_page=20)
     return jsonify(results)
+
+from ga_tech_scraper import extract_professor_info
+
+@app.route('/enrich_perplexity_professors', methods=['POST'])
+def enrich_perplexity_professors():
+    data = request.get_json()
+    professor_names = data.get('professor_names', [])
+    school_name = data.get('school_name', 'Georgia Tech')
+    results = []
+    for name in professor_names:
+        try:
+            # Dummy profile URL and soup for now; ideally, you'd scrape the actual profile page
+            # For demo, just pass name and school
+            prof_info = extract_professor_info(None, name, '', school_name)
+            results.append(prof_info)
+        except Exception as e:
+            results.append({'name': name, 'error': str(e)})
+    return jsonify({'professors': results})
 
 if __name__ == "__main__":
     app.run(debug=True)
