@@ -2,8 +2,27 @@ import json
 from flask import Flask, render_template, request, jsonify
 import requests
 import yaml
+import logging
+import os
+from faculty_db import FacultyDatabase
+from faculty_verifier import FacultyVerifier
+from ga_tech_scraper import validate_url
+
+# Set up logging
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.FileHandler("app.log"),
+        logging.StreamHandler()
+    ]
+)
+logger = logging.getLogger("app")
 
 app = Flask(__name__)
+
+# Initialize faculty database
+faculty_db = FacultyDatabase()
 
 # --- Load config and Perplexity API key ---
 def load_config():
@@ -62,17 +81,46 @@ def ask_perplexity():
 import re
 
 def load_faculty_by_department(dept_keywords):
-    # Load all faculty from the JSON file and filter by department keywords
+    # Load faculty from the database and filter by department keywords
     try:
-        with open('ga_tech_faculty.json', 'r', encoding='utf-8') as f:
-            all_faculty = json.load(f)
+        # First try to get from database
+        all_faculty = []
+        for keyword in dept_keywords:
+            # Search for faculty with this keyword in department
+            faculty_list = faculty_db.search_faculty_by_department(keyword)
+            all_faculty.extend(faculty_list)
+        
+        # If database is empty, fall back to JSON file
+        if not all_faculty:
+            logger.info(f"No faculty found in database for keywords {dept_keywords}, falling back to JSON file")
+            try:
+                with open('ga_tech_faculty.json', 'r', encoding='utf-8') as f:
+                    json_faculty = json.load(f)
+                
+                # Filter by department
+                filtered = []
+                for prof in json_faculty:
+                    dept = (prof.get('department') or '').lower()
+                    if any(kw.lower() in dept for kw in dept_keywords):
+                        filtered.append(prof)
+                return filtered
+            except Exception as e:
+                logger.error(f"Error loading from JSON file: {e}")
+                return []
+        
+        # Remove duplicates based on name
+        seen_names = set()
         filtered = []
         for prof in all_faculty:
-            dept = (prof.get('department') or '').lower()
-            if any(kw.lower() in dept for kw in dept_keywords):
+            name = prof.get('name')
+            if name and name not in seen_names:
+                seen_names.add(name)
                 filtered.append(prof)
+        
+        logger.info(f"Found {len(filtered)} faculty members for keywords {dept_keywords}")
         return filtered
     except Exception as e:
+        logger.error(f"Error in load_faculty_by_department: {e}")
         return []
 
 @app.route('/ask_and_enrich_perplexity', methods=['POST'])
